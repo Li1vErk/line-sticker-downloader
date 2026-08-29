@@ -1,5 +1,7 @@
 # LINE Sticker Downloader
 
+[English](README.md) · [简体中文](README.zh-CN.md)
+
 A lightweight Chromium extension for selectively downloading sticker and emoji assets from LINE Store product pages.
 
 Select the items you want, download them directly, and optionally convert animated APNG files to GIF — all from a compact floating interface injected into the LINE Store page.
