@@ -1,4 +1,6 @@
-# LINE 贴图下载器
+# LINE Sticker Downloader
+
+[English](README.md) · [简体中文](README.zh-CN.md)
 
 轻量级 Chromium 扩展，用于从 LINE Store 产品页面选择性下载贴图和表情包资源。
 
