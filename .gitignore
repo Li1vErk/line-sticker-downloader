@@ -1,0 +1,71 @@
+# ========================
+# OS / Editor
+# ========================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+
+# ========================
+# Node.js
+# ========================
+
+node_modules/
+package-lock.json
+npm-debug.log
+yarn-error.log
+
+
+# ========================
+# Downloaded / Generated Content
+# ========================
+# Never commit downloaded sticker or emoji assets.
+
+*.png
+*.gif
+*.apng
+*.jpg
+*.jpeg
+
+# Keep extension icons.
+!icons/
+!icons/*.png
+
+# Temporary download folders.
+downloads/
+temp/
+tmp/
+
+
+# ========================
+# Build / Distribution
+# ========================
+
+dist/
+build/
+*.zip
+*.crx
+*.pem
+
+
+# ========================
+# Logs
+# ========================
+
+*.log
+debug/
+
+
+# ========================
+# Personal / Local Config
+# ========================
+
+.env
+config.local.js

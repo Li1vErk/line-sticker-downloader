@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "LINE Sticker Downloader",
+  "version": "1.4.0",
+  "description": "Select and download LINE stickers. Supports APNG and GIF conversion.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": ["downloads"],
+  "host_permissions": [
+    "https://store.line.me/*",
+    "https://stickershop.line-scdn.net/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://store.line.me/stickershop/product/*",
+        "https://store.line.me/emojishop/product/*"
+      ],
+      "js": [
+        "libs/pako.min.js",
+        "libs/upng.min.js",
+        "libs/LZWEncoder.js",
+        "libs/NeuQuant.js",
+        "libs/GIFEncoder.js",
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
